@@ -1,17 +1,45 @@
-<h1>Burger!</h1>
+<div id="container">
 
-<ul>
-    {{#each burger}}
-    {{#unless devoured}}
-    {{burger/burgerblock devoured = false}}
-    {{/unless}}
-    {{/each}}
-</ul>
+    <div id="image" class="box">
+        <img src="/assets/burgerPic.webp" alt="Burger Pic" />
+    </div>
 
 
+    <div id="burgerToEat">
+        {{#each burgers}}
+        {{#unless devoured}}
+
+        <div class="text">
+            {{burger_name}}
+            <button data-id="{{id}}" class="devoured-burger">Devoured it!</button>
+        </div>
+
+        {{/unless}}
+        {{/each}}
+    </div>
+
+    <div id="devouredBurgers">
+        {{#each burgers}}
+        {{#if devoured}}
+
+        <div class="text">
+            {{burger_name}}
+            <button data-id="{{id}}" class="delete-burger">Delete it!</button>
+        </div>
+
+        {{/if}}
+        {{/each}}
+    </div>
 
 
+    <form id="addBurgerForm">
+        <input type="text" id="add-burger" placeholder="Add Burger">
+        <br>
+        <button type="submit" id="submit">Submit</button>
+        <p>Enter a burger you want to eat
+            <br>
+            and click the "Submit" button!
+        </p>
+    </form>
 
-
-
-  
+</div>
