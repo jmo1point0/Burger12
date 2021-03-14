@@ -68,7 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: #F28585;
+    background-color: rgb(28, 26, 26); 
     border: 1px solid #BF8B2A;
     color: lightgoldenrodyellow;
     text-transform: uppercase;
