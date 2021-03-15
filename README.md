@@ -14,7 +14,7 @@
 
 
  ### Contributing:
- Contributions made by Jordan Mossing using various technolgies, but anyone could go ahead and fill out this readme generator and create a readME file in the future for future projects. 
+ Contributions made by Jordan Mossing using various technolgies. 
 
  ### Screenshot:
 
