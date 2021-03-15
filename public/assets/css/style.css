@@ -1,6 +1,5 @@
 body {
     background-color:#F2CB57;
-    font-family: 'Slackey', cursive;
     font-size: 15px;
 }
 
@@ -50,7 +49,6 @@ input {
     border: 1px solid #BF8B2A;
     margin-bottom: 20px;
     margin-top: 5px;
-    font-family: 'Slackey', cursive;
     font-size: 15px;
     text-align: center;
 }
@@ -81,6 +79,6 @@ button#submit {
 
 img {
     align-content: center;
-    width: 300px;
+    width: 450px;
     height: 300px;
 }
