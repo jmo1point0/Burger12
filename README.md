@@ -3,14 +3,14 @@
 
 
 ### Installation:
-Download or clone repository
-Node.js is required to run the application
-Npm install to install the required npm packages   
+-Download or clone repository
+-Node.js is required to run the application
+-Npm install to install the required npm packages   
 
  ### Usage:
- Application will be invoked by using the following command:
- node server.js
- local host 8080
+ -Application will be invoked by using the following command:
+ -node server.js
+ -Run local host 8080 in your browser
 
 
  ### Contributing:
@@ -20,8 +20,8 @@ Npm install to install the required npm packages
 
  ### ![Image](./BurgerScreen.PNG)
 
-### Link https://burger12-jordan.herokuapp.com/
-### Link https://github.com/jmo1point0/Burger12
+### Link: https://burger12-jordan.herokuapp.com/
+### Link: https://jmo1point0.github.io/Burger12/
 
  ### Questions:
  
